@@ -1,12 +1,12 @@
-# FE.Utils
+# Skynet.Utils.FE
 
 ## Installation
 
 #### Clone the repository
 
 ```bash
-git clone git@github.com:Interfirst/FE.Utils.git
-cd FE.Utils
+git clone git@github.com:Interfirst/Skynet.Utils.FE.git
+cd Skynet.Utils.FE
 yarn install
 ```
 
