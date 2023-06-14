@@ -32,6 +32,7 @@ export enum ValidationError {
   NumbersNotAllowed = 'Field value should not contain numbers',
   MinHomeValue = 'Home value must be at least',
   AdulthoodDate = 'You must be at least 18 years old to submit a mortgage application',
+  ForbiddenSymbol = 'Field contains forbidden symbol'
 }
 
 export enum ShortValidationError {
