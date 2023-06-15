@@ -15,5 +15,5 @@ export const exceptSpecialSymbolsRegExp = /^[a-zA-Z0-9\s]*$/;
 
 export const exceptQueryDangerousSymbolsRegExp = /^[^($|>|<|=|;|+)]*$/;
 
-export const onlyLatinLettersNumbersPunctuationMarksRegExp =
+export const latinLettersNumbersSpecialCharactersRegExp =
   /^[A-Za-z0-9\s!"#$%&'()*+,-./:;<=>?№@\\[\]^_`{|}~]*$/;

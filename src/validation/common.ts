@@ -22,7 +22,7 @@ import {
   cellPhoneNumberRegexp,
   exceptQueryDangerousSymbolsRegExp,
   exceptSpecialSymbolsRegExp,
-  onlyLatinLettersNumbersPunctuationMarksRegExp,
+  latinLettersNumbersSpecialCharactersRegExp,
   orEmptyRegexp,
   phoneNumberRegexp,
 } from './regExps';
@@ -98,7 +98,7 @@ export const getTextField = (
 ): StringSchema<string | undefined> => {
   const fieldSchema = string()
     .trim()
-    .matches(onlyLatinLettersNumbersPunctuationMarksRegExp, ValidationError.ForbiddenSymbol);
+    .matches(latinLettersNumbersSpecialCharactersRegExp, ValidationError.ForbiddenSymbol);
 
   if (isRequired) {
     return fieldSchema.required(errorText);
