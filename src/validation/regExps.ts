@@ -14,3 +14,6 @@ export const domainRegExp = /^\w[\w-]{0,61}\w(?:\.[a-zA-Z]{2,})+$/;
 export const exceptSpecialSymbolsRegExp = /^[a-zA-Z0-9\s]*$/;
 
 export const exceptQueryDangerousSymbolsRegExp = /^[^($|>|<|=|;|+)]*$/;
+
+export const latinLettersNumbersSpecialCharactersRegExp =
+  /^[A-Za-z0-9\s!"#$%&'()*+,-./:;<=>?№@\\[\]^_`{|}~]*$/;
